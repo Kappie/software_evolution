@@ -3,8 +3,11 @@ module Lab1
 import IO;
 import List;
 import String;
+import lang::java::m3::Core;
+import lang::java::jdt::m3::Core;
+import lang::java::jdt::m3::AST;
 
-public str rootPath = "/home/geert/workspace/TestProject/";
+str rootPath = "/home/geert/workspace/TestProject/";
 
 public int linesOfCode(str path) {
 	lines = readFile(rootPath + path);
