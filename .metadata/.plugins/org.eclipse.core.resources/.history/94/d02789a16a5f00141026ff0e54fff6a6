@@ -1,0 +1,4 @@
+module Lab1
+
+str ROOT_PATH = "~/workspace/TestProject/";
+

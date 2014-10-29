@@ -1,0 +1,7 @@
+module Wiz
+
+import IO;
+
+public void fizzbuzz() {
+
+}

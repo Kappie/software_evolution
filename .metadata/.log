@@ -1,0 +1,256 @@
+!SESSION 2014-10-29 11:32:17.353 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-10-29 11:42:47.114
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:42:47.114
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:42:47.116
+!MESSAGE Software being installed: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:42:47.116
+!MESSAGE Missing requirement: rascal 0.7.1.201410281259 (rascal 0.7.1.201410281259) requires 'package com.google.gson 2.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:42:47.116
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:42:47.116
+!MESSAGE From: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:42:47.116
+!MESSAGE To: rascal [0.7.1.201410281259]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-10-29 11:42:47.121
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:42:47.121
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:42:47.121
+!MESSAGE Software being installed: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:42:47.121
+!MESSAGE Missing requirement: rascal 0.7.1.201410281259 (rascal 0.7.1.201410281259) requires 'package com.google.gson 2.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:42:47.122
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:42:47.122
+!MESSAGE From: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:42:47.122
+!MESSAGE To: rascal [0.7.1.201410281259]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-10-29 11:43:13.186
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:43:13.186
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:13.186
+!MESSAGE Software being installed: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:13.186
+!MESSAGE Missing requirement: rascal 0.7.1.201410281259 (rascal 0.7.1.201410281259) requires 'package com.google.gson 2.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:43:13.186
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:13.186
+!MESSAGE From: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:13.186
+!MESSAGE To: rascal [0.7.1.201410281259]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-10-29 11:43:13.188
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:43:13.188
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:13.188
+!MESSAGE Software being installed: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:13.188
+!MESSAGE Missing requirement: rascal 0.7.1.201410281259 (rascal 0.7.1.201410281259) requires 'package com.google.gson 2.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:43:13.188
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:13.188
+!MESSAGE From: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:13.188
+!MESSAGE To: rascal [0.7.1.201410281259]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-10-29 11:43:41.454
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:43:41.454
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:41.454
+!MESSAGE Software being installed: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:41.454
+!MESSAGE Missing requirement: rascal 0.7.1.201410281259 (rascal 0.7.1.201410281259) requires 'package com.google.gson 2.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:43:41.454
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:41.454
+!MESSAGE From: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:41.454
+!MESSAGE To: rascal [0.7.1.201410281259]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-10-29 11:43:41.455
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:43:41.455
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:41.455
+!MESSAGE Software being installed: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:41.455
+!MESSAGE Missing requirement: rascal 0.7.1.201410281259 (rascal 0.7.1.201410281259) requires 'package com.google.gson 2.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:43:41.455
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:41.455
+!MESSAGE From: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:43:41.455
+!MESSAGE To: rascal [0.7.1.201410281259]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-10-29 11:44:36.153
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:44:36.153
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:44:36.153
+!MESSAGE Software being installed: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:44:36.153
+!MESSAGE Missing requirement: rascal 0.7.1.201410281259 (rascal 0.7.1.201410281259) requires 'package com.google.gson 2.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:44:36.153
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:44:36.153
+!MESSAGE From: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:44:36.153
+!MESSAGE To: rascal [0.7.1.201410281259]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2014-10-29 11:44:36.155
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:44:36.155
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:44:36.155
+!MESSAGE Software being installed: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:44:36.155
+!MESSAGE Missing requirement: rascal 0.7.1.201410281259 (rascal 0.7.1.201410281259) requires 'package com.google.gson 2.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2014-10-29 11:44:36.155
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:44:36.155
+!MESSAGE From: The Rascal MetaProgramming Language 0.7.1.201410281303 (rascal-feature.feature.group 0.7.1.201410281303)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2014-10-29 11:44:36.155
+!MESSAGE To: rascal [0.7.1.201410281259]
+!SESSION 2014-10-29 11:52:41.218 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.rcp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.rcp.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2014-10-29 11:53:08.942
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+!SESSION 2014-10-29 11:56:31.722 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.rcp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.rcp.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2014-10-29 11:56:47.088
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.ui 4 4 2014-10-29 12:05:02.644
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+!SESSION 2014-10-29 12:21:05.375 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.7.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.rcp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.rcp.product
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2014-10-29 12:21:21.865
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2014-10-29 13:52:36.289
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-29 13:52:36.289
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@494d8369,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fee8817,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY rascal_eclipse 4 0 2014-10-29 13:58:46.235
+!MESSAGE can not open link
+
+!ENTRY rascal_eclipse 4 0 2014-10-29 14:00:09.012
+!MESSAGE can not open link
+
+!ENTRY rascal_eclipse 4 0 2014-10-29 14:00:12.386
+!MESSAGE can not open link
+
+!ENTRY rascal_eclipse 4 0 2014-10-29 14:00:13.261
+!MESSAGE can not open link
+
+!ENTRY rascal_eclipse 4 0 2014-10-29 14:00:13.730
+!MESSAGE can not open link
+
+!ENTRY rascal_eclipse 4 0 2014-10-29 14:00:14.405
+!MESSAGE can not open link
+
+!ENTRY rascal_eclipse 4 0 2014-10-29 14:02:11.498
+!MESSAGE can not open link
+
+!ENTRY org.eclipse.debug.core 4 2 2014-10-29 14:11:04.488
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.rascalmpl.eclipse.debug.core.model.RascalThread.getStackFrames(RascalThread.java:118)
+	at org.rascalmpl.eclipse.debug.core.model.RascalThread.getTopStackFrame(RascalThread.java:158)
+	at org.eclipse.debug.internal.ui.contexts.LaunchSuspendTrigger.notifySuspend(LaunchSuspendTrigger.java:112)
+	at org.eclipse.debug.internal.ui.contexts.LaunchSuspendTrigger.handleDebugEvents(LaunchSuspendTrigger.java:94)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.debug.core 4 125 2014-10-29 14:11:04.489
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.rascalmpl.eclipse.debug.core.model.RascalThread.getStackFrames(RascalThread.java:118)
+	at org.rascalmpl.eclipse.debug.core.model.RascalThread.getTopStackFrame(RascalThread.java:158)
+	at org.eclipse.debug.internal.ui.contexts.LaunchSuspendTrigger.notifySuspend(LaunchSuspendTrigger.java:112)
+	at org.eclipse.debug.internal.ui.contexts.LaunchSuspendTrigger.handleDebugEvents(LaunchSuspendTrigger.java:94)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1187)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:431)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

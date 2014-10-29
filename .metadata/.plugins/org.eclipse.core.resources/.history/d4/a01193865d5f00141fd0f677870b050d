@@ -1,0 +1,3 @@
+module Wiz
+
+public int pi() = 3;
