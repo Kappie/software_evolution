@@ -1,0 +1,28 @@
+module Lab1
+
+import IO;
+import List;
+import String;
+import lang::java::m3::Core;
+import lang::java::jdt::m3::Core;
+import lang::java::jdt::m3::AST;
+
+
+model = createM3FromEclipseProject(|project://TestProject|)
+
+
+public int linesOfCode(loc path) {
+	lines = readFile(path);
+	return size( [ line | line <- lines, !isEmptyLine(line), !isComment(line) ] );
+}
+
+bool isEmptyLine(str line) {
+	return isEmpty( trim(line) );
+}
+
+bool isComment(str line) {
+	return startsWith( trim(line), "//" );
+}
+
+/* UNIT TESTS */
+test bool locTest() = linesOfCode(|project://TestProject|) == 5;
