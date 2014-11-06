@@ -1,0 +1,54 @@
+module Lab1
+
+import Prelude;
+import lang::java::m3::Core;
+import lang::java::jdt::m3::Core;
+import lang::java::jdt::m3::AST;
+import lang::java::\syntax::Java15;
+
+
+
+public M3 myModel = createM3FromEclipseProject(|project://TestProject|);
+
+public int linesOfCode(M3 project) = (0 | it + linesOfCodeInFile(f) | f <- files(project));
+
+private int linesOfCodeInFile(loc file) = 
+	size( [ line | line <- readFileLines(file), !isComment(line), !isEmptyLine(line) ] );
+
+private bool isEmptyLine(str line) =
+	isEmpty( trim(line) );
+
+private bool isComment(str line) =
+	startsWith( trim(line), "//" );
+
+
+
+//public void cyclomaticComplexity(M3 model){
+//	
+//	println("<size(methods(model))>");
+//	
+//}
+
+
+
+
+int cyclomaticComplexity(Declaration m) {
+  result = 1;
+  visit (m) {
+    case (Stm)`do <Stm _> while (<Expr _>);`: result += 1;
+    case (Stm)`while (<Expr _>) <Stm _>`: result += 1;
+    case (Stm)`if (<Expr _>) <Stm _>`: result +=1;
+    case (Stm)`if (<Expr _>) <Stm _> else <Stm _>`: result +=1;
+    case (Stm)`for (<{Expr ","}* _>; <Expr? _>; <{Expr ","}*_>) <Stm _>` : result += 1;
+    case (Stm)`for (<LocalVarDec _> ; <Expr? e> ; <{Expr ","}* _>) <Stm _>`: result += 1;
+    case (Stm)`for (<FormalParam _> : <Expr _>) <Stm _>` : result += 1;
+    case (Stm)`switch (<Expr _> ) <SwitchBlock _>`: result += 1;
+    case (SwitchLabel)`case <Expr _> :` : result += 1;
+    case (CatchClause)`catch (<FormalParam _>) <Block _>` : result += 1;
+  }
+  return result;
+}
+
+
+/* UNIT TESTS */
+test bool locTest() = linesOfCode(myModel) == 5;

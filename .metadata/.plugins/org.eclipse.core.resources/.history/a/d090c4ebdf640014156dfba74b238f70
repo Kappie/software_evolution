@@ -1,0 +1,38 @@
+module Lab1
+
+import IO;
+import List;
+import String;
+import lang::java::m3::Core;
+import lang::java::jdt::m3::Core;
+import lang::java::jdt::m3::AST;
+
+
+public M3 myModel = createM3FromEclipseProject(|project://TestProject|);
+
+public int linesOfCode(M3 project) = (0 | it + linesOfCodeInFile(f) | f <- files(project));
+
+private int linesOfCodeInFile(loc file) = 
+	size( [ line | line <- readFileLines(file), !isComment(line), !isEmptyLine(line) ] );
+
+private bool isEmptyLine(str line) =
+	isEmpty( trim(line) );
+
+private bool isComment(str line) =
+	startsWith( trim(line), "//" );
+
+
+
+public int cyclomaticComplexity(M3 project) {
+	
+}
+
+public void methodsPerClass(M3 model){
+	for(c <- classes(model)){
+		println("<c>: <size(methods(model, c))>");
+	}
+}
+
+
+/* UNIT TESTS */
+test bool locTest() = linesOfCode(myModel) == 5;

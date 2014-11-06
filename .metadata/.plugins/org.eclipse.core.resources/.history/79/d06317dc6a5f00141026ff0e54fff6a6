@@ -1,4 +1,0 @@
-module Lab1
-
-str root_path = "~/workspace/TestProject/";
-
